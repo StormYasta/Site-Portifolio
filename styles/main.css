@@ -1,0 +1,31 @@
+:root{
+    --background: #1e1c38;
+    --ball: #8b4ddd;
+    --text: #c5c5c5;
+
+
+    font-size: 62.5%
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    align-items: center;
+}
+
+html, body,
+#container{
+    max-height: 100vh;
+    max-width: 100vw;
+    height: 100%;
+    width: 100%;
+}
