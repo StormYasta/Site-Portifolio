@@ -1,7 +1,13 @@
 :root{
     --background: #1e1c38;
     --ball: #8b4ddd;
+    --ball-border: #ad71fa;
     --text: #c5c5c5;
+    --button: #c5c5c5;
+    --button-hover: #6aff71;
+    --button-bg: #8b4ddd;
+
+    --font:'Open Sans';
 
 
     font-size: 62.5%
@@ -13,9 +19,6 @@
     box-sizing: border-box;
 }
 
-html{
-    height: 100vh;
-}
 
 body{
     display: flex;
@@ -28,4 +31,31 @@ html, body,
     max-width: 100vw;
     height: 100%;
     width: 100%;
+}
+
+.buttons{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+
+    
+    background: var(--button-bg);
+
+}
+
+.buttons a{
+    color: var(--button);
+    font: 600 2.2rem var(--font), sans-serif;
+    text-decoration: none;
+    margin: 1rem;
+    
+    transition: .3s;
+}
+
+.buttons a:hover{
+    color: var(--button-hover);
 }
