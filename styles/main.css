@@ -33,29 +33,11 @@ html, body,
     width: 100%;
 }
 
-.buttons{
-    position: absolute;
-    display: flex;
-    justify-content: end;
-
-    height: auto;
-    width: 100%;
-    padding: 1rem;
-
-    
-    background: var(--button-bg);
-
+header{
+    position: sticky;
+    top: 0;
 }
 
-.buttons a{
-    color: var(--button);
-    font: 600 2.2rem var(--font), sans-serif;
-    text-decoration: none;
-    margin: 1rem;
-    
-    transition: .3s;
-}
-
-.buttons a:hover{
-    color: var(--button-hover);
+footer{
+    height: 10rem;
 }

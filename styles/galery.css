@@ -1,0 +1,29 @@
+main .galery{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main .galery h1{
+    font: 600 5rem var(--font), sans-serif;
+    color: var(--text);
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+main .galery .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
+
+main .galery .grid img{
+    size: 100%;
+    margin: .5rem;
+    transition: .3s;
+
+}
+
+main .galery .grid img:hover{
+    size: 120%;
+}
